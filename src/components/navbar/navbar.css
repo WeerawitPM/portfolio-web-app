@@ -1,0 +1,32 @@
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    padding: 24px;
+}
+
+.navbar p,
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin: 0 16px;
+}
+
+.navbar p {
+    font-weight: 700;
+}
+
+.navbar a:hover {
+    color: #ff6b6b;
+}
