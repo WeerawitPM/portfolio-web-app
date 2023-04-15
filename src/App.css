@@ -7,7 +7,6 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
   background-color: rgb(13,17,23);
   color: white;
   text-align: center;
@@ -129,6 +128,7 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* เพื่อเป็นฐานหรือตำแหน่งเริ่มต้นสำหรับการกำหนดตำแหน่งอื่นๆ ภายใน .timeline */
   position: relative;
   width: 50%;
 }
